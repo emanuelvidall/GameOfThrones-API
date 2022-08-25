@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: fit-content;
+    font-family: MedievalSharp;
+    margin-top: 66px;
+    background-color: gray;
+}
+
+.textNormal {
+    color: white;
+    font-family: MedievalSharp;
+}
+
+.darkBackground {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
