@@ -15,9 +15,8 @@
     <style>@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');</style>
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top textWhite">
         <div class="container-fluid">
-            <img class="navbar-brand" src="./assetsUsed/wolfHead.png" width="50px" height="50px"></img>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,12 +46,17 @@
         </div>
     </nav>
 </header>
+
 <body>
-    <div class="textNormal">
-        <div class="darkBackground">
-            <h1>Game Of Thrones - API Test</h1>
-            <p>Type the character that you want to know more.</p>
-            
+    <div class="textBlack">
+        <div class="wrapBackground">
+        <img class="backgroundImage" src="./assetsUsed/gotbackgroundpatter.jpeg">
+            <div class="textBox">
+                <h1>Game Of Thrones - API Test</h1>
+                <p>Type the character that you want to know more.</p>
+                <input type="text" name="nome" value="" placeholder="Character Name"/>
+                <img class="fetchImageAPI" src="https://source.unsplash.com/random/800x800/?img=1">
+            </div>
         </div>
     </div>
 </body>

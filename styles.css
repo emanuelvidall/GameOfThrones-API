@@ -6,17 +6,22 @@
 html {
     width: 100vw;
     height: fit-content;
-    font-family: MedievalSharp;
-    margin-top: 66px;
     background-color: gray;
 }
 
-.textNormal {
-    color: white;
-    font-family: MedievalSharp;
+.navbar {
+    display: flex;
+    position: absolute;
+    width: 540px;
 }
 
-.darkBackground {
+.backgroundImage {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.wrapBackground {
     display: flex;
     position: relative;
     width: 100vw;
@@ -25,7 +30,34 @@ html {
 
     position:relative;
     display: flex;
+    justify-content: center;
+}
+.textBox {
+    position:relative;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
+    
+    background-color: rgba(255, 255, 255, 0.348);
 }
 
+.fetchImageAPI {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.textBlack {
+    font-family: MedievalSharp;
+    font-weight: 800;
+    color: black;
+}
+
+
+.textWhite {
+    font-family: MedievalSharp;
+    font-weight: 800;
+    color: white;
+}
