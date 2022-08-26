@@ -37,9 +37,10 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 90px;
     width: 540px;
-    background-color: rgba(255, 255, 255, 0.348);
+    background-color: rgba(255, 255, 255, 0.451);
+    text-align: center;
 }
 
 #fetchImageAPI {
@@ -59,5 +60,13 @@ html {
 .textWhite {
     font-family: MedievalSharp;
     font-weight: 800;
-    color: white !important;
+}
+
+.customHolder {
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }

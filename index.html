@@ -26,19 +26,19 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="./about.html">About</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">.API used</a>
+                    <a class="nav-link" href="https://thronesapi.com/" target="_blank">.API used</a>
                     </li>
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Authors | Git
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Emanuel Vidal</a></li>
-                        <li><a class="dropdown-item" href="#">Rafael Dubanhevitz</a></li>
-                        <li><a class="dropdown-item" href="#">Project Repository</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/emanuelvidall" target="_blank">Emanuel Vidal</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/rafaelsaboiad" target="_blank">Rafael Dubanhevitz</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/emanuelvidall/gotapitest" target="_blank">Project Repository</a></li>
                     </ul>
                     </li>
                 </ul>
@@ -53,12 +53,13 @@
         <img class="backgroundImage" src="./assetsUsed/gotbackgroundpatter.jpeg">
             <div class="textBox">
                 <h1>Game Of Thrones - API Test</h1>
-                <p>Type the character that you want to know more.</p>
-                <input type="text" name="nome" value="" placeholder="Character Name"/>
+                <p>Type the character first name that you want to know more.</p>
+                <input class="customHolder" type="text" name="nome" value="" placeholder="Character First Name"/>
                 <img id="fetchImageAPI" src="https://source.unsplash.com/random/800x800/?img=1">
                 <br>
                 <p id="charLastName">API LASTNAME OUTPUT</p>
                 <p id="charHouseName">API HOUSENAME OUTPUT</p>
+                <p id="charTitle">API HOUSENAME OUTPUT</p>
             </div>
         </div>
     </div>
