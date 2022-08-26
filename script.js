@@ -21,13 +21,15 @@ input.addEventListener("keypress", function(event) {
 async function foo() {
     let obj;
     let bodyElement;
+    let familyElement;
     let imgElement = document.getElementById("fetchImageAPI");
     let titleElement;
     let MatchC = document.getElementById("characterField").value;
     const res = await fetch('https://thronesapi.com/api/v2/Characters');
     obj = await res.json();
+    familyElement = document.getElementById("familyName");
     bodyElement = document.getElementById("charLastName");
-    titleElement = document.getElementById("charTitle")
+    titleElement = document.getElementById("charTitle");
     console.log(obj);
     //For loop to iterate through every object of the API response, and matching the firstName with the response.
     //Later should be changed for a better algorithm? or it doesnt matter given the size of the length of the response (54 objects)
@@ -39,7 +41,7 @@ async function foo() {
             let px = obj[i].imageUrl;
             bodyElement.innerHTML = "";
             bodyElement.innerHTML = ("Lastname: " + obj[i].lastName);
-            bodyElement.innerHTML = (obj[i].family);
+            familyElement.innerHTML = ("Family: " +obj[i].family);
             titleElement.innerHTML = ("Title: " + obj[i].title);
             imgElement.src = obj[i].imageUrl;
             break;
