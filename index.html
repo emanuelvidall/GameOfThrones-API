@@ -54,9 +54,12 @@
             <div class="textBox">
                 <h1>Game Of Thrones - API Test</h1>
                 <p>Type the character that you want to know more.</p>
-                <input type="text" name="nome" value="" placeholder="Character Name"/>
+                <input type="text" id="characterName" placeholder="Character Name"/>
+                <button id="triggerFunction" onClick="foo()">Search</button>
                 <img id="fetchImageAPI" src="https://source.unsplash.com/random/800x800/?img=1">
                 <br>
+            </div>
+            <div id="info">
                 <p id="charLastName">API LASTNAME OUTPUT</p>
                 <p id="charHouseName">API HOUSENAME OUTPUT</p>
             </div>
