@@ -15,8 +15,8 @@
     <style>@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');</style>
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top textWhite">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top mx-auto">
+        <div class="container-fluid textWhite">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,7 +55,10 @@
                 <h1>Game Of Thrones - API Test</h1>
                 <p>Type the character that you want to know more.</p>
                 <input type="text" name="nome" value="" placeholder="Character Name"/>
-                <img class="fetchImageAPI" src="https://source.unsplash.com/random/800x800/?img=1">
+                <img id="fetchImageAPI" src="https://source.unsplash.com/random/800x800/?img=1">
+                <br>
+                <p id="charLastName">API LASTNAME OUTPUT</p>
+                <p id="charHouseName">API HOUSENAME OUTPUT</p>
             </div>
         </div>
     </div>

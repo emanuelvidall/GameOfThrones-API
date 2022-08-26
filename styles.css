@@ -37,12 +37,12 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
-    
+    padding-top: 100px;
+    width: 540px;
     background-color: rgba(255, 255, 255, 0.348);
 }
 
-.fetchImageAPI {
+#fetchImageAPI {
     width: 300px;
     height: 300px;
     margin-top: 20px;
@@ -59,5 +59,5 @@ html {
 .textWhite {
     font-family: MedievalSharp;
     font-weight: 800;
-    color: white;
+    color: white !important;
 }
