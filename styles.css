@@ -81,3 +81,15 @@ html {
 #triggerButton {
     visibility: hidden;
 }
+
+
+.iconBox {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items:flex-end;
+    width: 540px;
+    height: 100px;
+}
