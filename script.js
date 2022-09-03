@@ -42,5 +42,7 @@ async function fetchAndRender() {
     if (characterFound == false){
         bodyElement.innerHTML = ("Character not found");
         bodyElement.style.color = "red";
+        document.getElementById("characterField").value = "";
     }
+
 }
