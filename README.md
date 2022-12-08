@@ -1,5 +1,4 @@
-# GoT-API
-## Game of Thrones API
+# GameOfThrones-API
 ## About The Project ⚔
 
 As we started a new course on Software Development, me and [Rafael Saboia](https://github.com/rafaelsaboia) came up with the idea of making
